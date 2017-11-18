@@ -1,0 +1,20 @@
+*font: xft:Pragmata\ Pro:size=11
+URxvt.lineSpace:          1
+
+! Rofi
+rofi.width:                30
+rofi.lines:                12
+rofi.yoffset:              260
+
+! i3wm
+i3wm.gaps.inner: 5
+i3wm.gaps.outer: 0
+
+! Polybar
+polybar.wlan.interface: wlp2s0b1
+polybar.height: 20
+polybar.border-left-size: 5
+polybar.border-right-size: 5
+polybar.font-0: fixed:pixelsize=8;1
+polybar.font-1: unifont:fontformat=truetype:size=9:antialias=false;0
+polybar.font-2: Wuncon\ Siji:pixelsize=9;1
