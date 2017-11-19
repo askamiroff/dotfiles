@@ -1,12 +1,11 @@
 ! Xft
-!Xft.antialias: 1
-!Xft.autohint: 1
-!Xft.dpi: 96
-!Xft.dpi: 72
-!Xft.hinting: true
-!Xft.hintstyle: hintfull
+Xft.antialias: 1
+Xft.autohint: 1
+! Xft.dpi: 94
+Xft.hinting: true
+Xft.hintstyle: hintfull
 Xft.rgba: rgb
-!Xft.lcdfilter: lcddefault
+Xft.lcdfilter: lcddefault
 
 ! Compile rxvt with flags: --enable-frills --enable-unicode3 (https://github.com/powerline/powerline/issues/684)
  *font: xft:Pragmata\ Pro\ Mono:size=12
