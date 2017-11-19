@@ -1,5 +1,7 @@
 # dotfiles
 
+* Font - [ttf-iosevka-term-ss04](https://aur.archlinux.org/packages/?O=0&K=iosevka) (shape: menlo)
+
 ## Zsh
 
 Install `zplug`
