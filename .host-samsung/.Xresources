@@ -15,6 +15,6 @@ polybar.wlan.interface: wlp2s0b1
 polybar.height: 20
 polybar.border-left-size: 5
 polybar.border-right-size: 5
-polybar.font-0: fixed:pixelsize=8;1
-polybar.font-1: unifont:fontformat=truetype:size=9:antialias=false;0
-polybar.font-2: Wuncon\ Siji:pixelsize=9;1
+polybar.font-0: fixed:pixelsize=9;1
+polybar.font-1: unifont:fontformat=truetype:size=10:antialias=false;0
+polybar.font-2: Wuncon\ Siji:pixelsize=10;1

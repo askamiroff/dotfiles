@@ -67,7 +67,7 @@ setopt auto_pushd # cd = pushd
 setopt pushd_ignore_dups
 setopt pushd_silent
 
-setopt print_exit_value # Print exit value if return code is non-zero
+# setopt print_exit_value # Print exit value if return code is non-zero
 
 setopt promptpercent
 setopt promptsubst
