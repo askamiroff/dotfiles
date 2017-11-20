@@ -7,3 +7,21 @@ super + Return
 
 super + r
 	PATH="$HOME/.bin:$PATH" rofi -show run
+
+super + x
+  bash $HOME/.bin/screenshot
+
+super + shift + x
+  bash $HOME/.bin/screenshot-upload
+
+XF86AudioMute
+  pamixer --toggle-mute
+  #amixer -q set Master toggle
+
+XF86AudioRaiseVolume
+  pamixer --increase 5
+  #amixer set Master 5%+
+
+XF86AudioLowerVolume
+  pamixer --decrease 5
+  #amixer set Master 5%-
