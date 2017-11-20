@@ -1,0 +1,10 @@
+# /bin/bash
+
+file='/sys/class/backlight/acer-wmi/brightness'
+[ -f "$file" ] && echo > $1 $file
+
+file="/sys/class/backlight/acpi_video0/brightness"
+[ -f "$file" ] && echo > $1 $file
+
+file="/sys/class/backlight/nv_backlight/brightness"
+[ -f "$file" ] && (sudo tee /sys/class/backlight/nv_backlight/brightness <<< $1)
