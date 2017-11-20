@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vivaldi-stable --user-data-dir=$HOME/.chrome-vivaldi-profiles/$1

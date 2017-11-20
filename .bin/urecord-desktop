@@ -1,0 +1,8 @@
+#!/bin/bash
+
+byzanz-record --duration=15 \
+  --x=12 \
+  --y=80 \
+  --width=1100 \
+  --height=800 \
+  out.gif

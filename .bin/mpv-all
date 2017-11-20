@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+ls | sort -V | xargs -d '\n' nohup mpv % &> /dev/null &

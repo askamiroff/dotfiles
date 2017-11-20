@@ -1,0 +1,3 @@
+#!/bin/bash
+
+browser --user-data-dir=$HOME/.chrome-profiles/$1

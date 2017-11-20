@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export DISPLAY=:0
+export XAUTHORITY=~/.Xauthority
+
+xset -display :0 r rate 200 30
+setxkbmap -option grp:alt_shift_toggle -layout us,ru:2 -option "grp:rwin_toggle,numpad:microsoft"
+xmodmap ~/.Xmodmap

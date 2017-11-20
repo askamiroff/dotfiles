@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Serial number: " `sudo openssl x509 -in $1 -serial -noout`
+echo "Fingerprint: " `sudo openssl x509 -in $1 -fingerprint -noout`

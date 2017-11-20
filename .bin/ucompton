@@ -1,0 +1,3 @@
+#!/bin/bash
+
+compton -CG --config /dev/null --backend glx --vsync opengl &

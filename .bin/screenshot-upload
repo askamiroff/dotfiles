@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FILENAME="/s/Storage/S-Screenshots/$(date +"%m_%d_%Y_%s").png"
+import $FILENAME
+imgurbash2 $FILENAME
+notify-send "Screenshot uploaded\n $FILENAME"
