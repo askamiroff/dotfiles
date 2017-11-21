@@ -262,7 +262,7 @@ export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""' # Ignore directorie
 export MYSQL_PS1="(\u@\h) [\d]> "
 
 # RVM
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$GEM_HOME/bin:$HOME/.rvm/bin:$PATH"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # NVM
