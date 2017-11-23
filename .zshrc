@@ -254,6 +254,7 @@ reload() {
 
 [ -d "$HOME/.bin" ] && PATH="$HOME/.bin:$PATH"
 [ -f $HOME/.zshrc-$HOST ] && . $HOME/.zshrc-$HOST
+[ -f /etc/profile.d/autojump.zsh ] && . /etc/profile.d/autojump.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
