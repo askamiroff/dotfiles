@@ -155,6 +155,7 @@ alias 'ps?'='ps ax | grep -i'
 alias r='rails'
 alias xdefaults-reload='xrdb ~/.Xdefaults'
 touchx() { touch $1 && chmod u+x $1 }
+alias gst='git st'
 
 # Functions
 
